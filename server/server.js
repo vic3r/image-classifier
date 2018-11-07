@@ -1,8 +1,8 @@
-require('dot-env').load();
+require('dotenv').load();
 
 const config = require('./config');
 const bodyParser = require('body-parser');
-const routes = require('./app/routes');
+const routes = require('./app/routes/app');
 const express = require('express');
 const publicDir = require('path').join(__dirname, '/img');  
 
